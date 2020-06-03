@@ -1,555 +1,2131 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "name": "Savanna Schulist",
-        "avatar_url": "https://robohash.org/Savanna Schulist.png?size=300x300&set=set1"
+  "users": [
+    {
+      "id": 1,
+      "name": "Savanna Schulist",
+      "avatar_url": "https://robohash.org/Savanna Schulist.png?size=300x300&set=set1"
+    },
+    {
+      "id": 2,
+      "name": "Elbert Beer",
+      "avatar_url": "https://robohash.org/Elbert Beer.png?size=300x300&set=set1"
+    },
+    {
+      "id": 3,
+      "name": "Fanny Zemlak",
+      "avatar_url": "https://robohash.org/Fanny Zemlak.png?size=300x300&set=set1"
+    },
+    {
+      "id": 4,
+      "name": "Omari Ledner",
+      "avatar_url": "https://robohash.org/Omari Ledner.png?size=300x300&set=set1"
+    },
+    {
+      "id": 5,
+      "name": "Chasity Johns",
+      "avatar_url": "https://robohash.org/Chasity Johns.png?size=300x300&set=set1"
+    },
+    {
+      "content": "hello",
+      "date": 1590327079021,
+      "likes": 0,
+      "retweets": 0,
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "content": "Hello",
+      "date": 1590327177044,
+      "likes": 0,
+      "retweets": 0,
+      "userId": 1,
+      "id": 7
+    }
+  ],
+  "tweets": [
+    {
+      "id": 1,
+      "userId": 1,
+      "content": "Lip-Sync for Your Life",
+      "likes": 121,
+      "retweets": 45,
+      "date": "26/05/2020"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "content": "Chuck Norris doesn't delete files, he blows them away.",
+      "likes": 143,
+      "retweets": 47,
+      "date": "26/05/2020"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "content": "I'll index the 1080p PNG port, that should bandwidth the SAS array!",
+      "likes": 203,
+      "retweets": 32,
+      "date": "1/05/2020"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "content": "Anonymous methods and anonymous types are really all called Chuck Norris. They just don't like to boast.",
+      "likes": 67,
+      "retweets": 42,
+      "date": "13/05/2020"
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "content": "Let the music play",
+      "likes": 79,
+      "retweets": 50,
+      "date": "18/05/2020"
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "content": "The programs that Chuck Norris writes don't have version numbers because he only writes them once. If a user reports a bug or has a feature request they don't live to see the sun set.",
+      "likes": 131,
+      "retweets": 50,
+      "date": "12/05/2020"
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "content": "Harry, is that bag smiling?",
+      "likes": 81,
+      "retweets": 38,
+      "date": "30/05/2020"
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "content": "Go home and drink, grandpa.",
+      "likes": 57,
+      "retweets": 48,
+      "date": "24/05/2020"
+    },
+    {
+      "id": 9,
+      "userId": 1,
+      "content": "When Chuck Norris points to null, null quakes in fear.",
+      "likes": 8,
+      "retweets": 21,
+      "date": "16/05/2020"
+    },
+    {
+      "id": 10,
+      "userId": 1,
+      "content": "It's fine, everything is fine. Theres an infinite number of realities Morty and in a few dozen of those I got lucky and turned everything back to normal.",
+      "likes": 140,
+      "retweets": 3,
+      "date": "16/05/2020"
+    },
+    {
+      "comments": {
+        "userId": "2",
+        "tweetId": 11,
+        "content": "",
+        "date": "27/5/2020"
       },
-      {
-        "id": 2,
-        "name": "Elbert Beer",
-        "avatar_url": "https://robohash.org/Elbert Beer.png?size=300x300&set=set1"
+      "id": 11
+    },
+    {
+      "comments": {
+        "userId": "2",
+        "tweetId": 12,
+        "content": "",
+        "date": "27/5/2020"
       },
-      {
-        "id": 3,
-        "name": "Fanny Zemlak",
-        "avatar_url": "https://robohash.org/Fanny Zemlak.png?size=300x300&set=set1"
+      "id": 12
+    },
+    {
+      "comments": {
+        "userId": "3",
+        "tweetId": 13,
+        "content": "",
+        "date": "27/5/2020"
       },
-      {
-        "id": 4,
-        "name": "Omari Ledner",
-        "avatar_url": "https://robohash.org/Omari Ledner.png?size=300x300&set=set1"
+      "id": 13
+    },
+    {
+      "comments": {
+        "userId": "3",
+        "tweetId": 14,
+        "content": "",
+        "date": "27/5/2020"
       },
-      {
-        "id": 5,
-        "name": "Chasity Johns",
-        "avatar_url": "https://robohash.org/Chasity Johns.png?size=300x300&set=set1"
-      }
-    ],
-    "tweets": [
-      {
+      "id": 14
+    },
+    {
+      "id": 15,
+      "userId": 4,
+      "content": "If we reboot the circuit, we can get to the GB protocol through the solid state USB card!",
+      "likes": 42,
+      "retweets": 16,
+      "date": "26/05/2020"
+    },
+    {
+      "id": 16,
+      "userId": 4,
+      "content": "Sissy That Walk",
+      "likes": 63,
+      "retweets": 42,
+      "date": "26/05/2020"
+    },
+    {
+      "id": 17,
+      "userId": 4,
+      "content": "That gum you like is going to come back in style.",
+      "likes": 107,
+      "retweets": 28,
+      "date": "26/05/2020"
+    },
+    {
+      "id": 18,
+      "userId": 5,
+      "content": "Chuck Norris' programs occupy 150% of CPU, even when they are not executing.",
+      "likes": 92,
+      "retweets": 17,
+      "date": "17/05/2020"
+    },
+    {
+      "id": 19,
+      "userId": 5,
+      "content": "Forty-two to twenty-one! Like the turkey, Ross is done!",
+      "likes": 115,
+      "retweets": 5,
+      "date": "24/05/2020"
+    },
+    {
+      "id": 20,
+      "userId": 5,
+      "content": "You know, this is — excuse me — a damn fine cup of coffee!",
+      "likes": 194,
+      "retweets": 22,
+      "date": "11/05/2020"
+    },
+    {
+      "id": 21,
+      "userId": 5,
+      "content": "COOPER, YOU REMIND ME TODAY OF A SMALL MEXICAN CHIHUAHUA.",
+      "likes": 157,
+      "retweets": 21,
+      "date": "16/05/2020"
+    },
+    {
+      "id": 22,
+      "userId": 5,
+      "content": "If you want to know what a man’s like, take a good look at how he treats his inferiors, not his equals.",
+      "likes": 75,
+      "retweets": 48,
+      "date": "1/05/2020"
+    },
+    {
+      "id": 23,
+      "userId": 5,
+      "content": "Chuck Norris doesn't have performance bottlenecks. He just makes the universe wait its turn.",
+      "likes": 62,
+      "retweets": 36,
+      "date": "6/05/2020"
+    },
+    {
+      "id": 24,
+      "userId": 5,
+      "content": "Through the darkness of future's past, the magician longs to see. One chants out between two worlds... \"Fire... walk with me.\"",
+      "likes": 2,
+      "retweets": 20,
+      "date": "14/05/2020"
+    },
+    {
+      "content": "new new new",
+      "date": "2020-05-24T13:45:47.882Z",
+      "likes": 4,
+      "retweets": 0,
+      "userId": 1,
+      "id": 25
+    },
+    {
+      "content": "",
+      "date": "2020-05-24T13:59:25.642Z",
+      "likes": 4,
+      "retweets": 0,
+      "userId": 1,
+      "id": 26
+    },
+    {
+      "content": "new date",
+      "date": "24/5/2020",
+      "likes": 5,
+      "retweets": 0,
+      "userId": 1,
+      "id": 27
+    },
+    {
+      "content": "new new new tweet",
+      "date": "24/5/2020",
+      "likes": 5,
+      "retweets": 0,
+      "userId": 1,
+      "id": 28
+    },
+    {
+      "content": "TWEET",
+      "date": "24/5/2020",
+      "likes": 5,
+      "retweets": 0,
+      "userId": 1,
+      "id": 29
+    },
+    {
+      "content": "",
+      "date": "24/5/2020",
+      "likes": 6,
+      "retweets": 1,
+      "userId": 1,
+      "id": 30
+    },
+    {
+      "content": "",
+      "date": "24/5/2020",
+      "likes": 5,
+      "retweets": 0,
+      "userId": 1,
+      "id": 31
+    },
+    {
+      "content": "",
+      "date": "24/5/2020",
+      "likes": 5,
+      "retweets": 0,
+      "userId": 1,
+      "id": 32
+    },
+    {
+      "content": "",
+      "date": "24/5/2020",
+      "likes": 5,
+      "retweets": 0,
+      "userId": 1,
+      "id": 33
+    },
+    {
+      "content": "",
+      "date": "24/5/2020",
+      "likes": 4,
+      "retweets": 0,
+      "userId": 1,
+      "id": 34
+    },
+    {
+      "content": "",
+      "date": "24/5/2020",
+      "likes": 4,
+      "retweets": 0,
+      "userId": 1,
+      "id": 35
+    },
+    {
+      "content": "new twwer",
+      "date": "24/5/2020",
+      "likes": 4,
+      "retweets": 0,
+      "userId": 1,
+      "id": 36
+    },
+    {
+      "content": "",
+      "date": "24/5/2020",
+      "likes": 4,
+      "retweets": 0,
+      "userId": 1,
+      "id": 37
+    },
+    {
+      "content": "",
+      "date": "24/5/2020",
+      "likes": 5,
+      "retweets": 0,
+      "userId": 1,
+      "id": 38
+    },
+    {
+      "content": "",
+      "date": "24/5/2020",
+      "likes": 4,
+      "retweets": 0,
+      "userId": 1,
+      "id": 39
+    },
+    {
+      "content": "",
+      "date": "24/5/2020",
+      "likes": 5,
+      "retweets": 0,
+      "userId": 1,
+      "id": 40
+    },
+    {
+      "comments": {
+        "userId": "2",
+        "tweetId": 41,
+        "content": "",
+        "date": "27/5/2020"
+      },
+      "id": 41
+    },
+    {
+      "comments": {
+        "userId": "3",
+        "tweetId": 42,
+        "content": "",
+        "date": "27/5/2020"
+      },
+      "id": 42
+    },
+    {
+      "comments": {
+        "userId": "2",
+        "tweetId": 43,
+        "content": "",
+        "date": "27/5/2020"
+      },
+      "id": 43
+    },
+    {
+      "comments": {
+        "userId": "3",
+        "tweetId": 44,
+        "content": "",
+        "date": "27/5/2020"
+      },
+      "id": 44
+    },
+    {
+      "comments": {
+        "userId": "3",
+        "tweetId": 45,
+        "content": "",
+        "date": "27/5/2020"
+      },
+      "id": 45
+    },
+    {
+      "comments": {
+        "userId": "2",
+        "tweetId": 46,
+        "content": "",
+        "date": "27/5/2020"
+      },
+      "id": 46
+    },
+    {
+      "comments": {
+        "userId": "2",
+        "tweetId": 47,
+        "content": "",
+        "date": "27/5/2020"
+      },
+      "id": 47
+    },
+    {
+      "comments": {
+        "userId": "3",
+        "tweetId": 48,
+        "content": "",
+        "date": "27/5/2020"
+      },
+      "id": 48
+    },
+    {
+      "comments": {
+        "userId": "2",
+        "tweetId": 49,
+        "content": "",
+        "date": "27/5/2020"
+      },
+      "id": 49
+    },
+    {
+      "comments": {
+        "userId": "3",
+        "tweetId": 50,
+        "content": "",
+        "date": "27/5/2020"
+      },
+      "id": 50
+    },
+    {
+      "comments": {
+        "userId": "2",
+        "tweetId": 51,
+        "content": "",
+        "date": "27/5/2020"
+      },
+      "id": 51
+    },
+    {
+      "comments": {
+        "userId": "3",
+        "tweetId": 52,
+        "content": "first comment",
+        "date": "27/5/2020"
+      },
+      "id": 52
+    },
+    {
+      "comments": {
+        "userId": "2",
+        "tweetId": 53,
+        "content": "first comment",
+        "date": "27/5/2020"
+      },
+      "id": 53
+    },
+    {
+      "comments": {
+        "userId": "3",
+        "tweetId": 54,
+        "content": "one comment",
+        "date": "27/5/2020"
+      },
+      "id": 54
+    },
+    {
+      "comments": {
+        "userId": "2",
+        "tweetId": 55,
+        "content": "one comment",
+        "date": "27/5/2020"
+      },
+      "id": 55
+    },
+    {
+      "content": "csxcs",
+      "date": "25/5/2020",
+      "likes": 11,
+      "retweets": 29,
+      "userId": "3",
+      "id": 56
+    },
+    {
+      "comments": {
+        "userId": "2",
+        "tweetId": 57,
+        "content": "ddddddd",
+        "date": "27/5/2020"
+      },
+      "id": 57
+    },
+    {
+      "content": "dasdsa",
+      "date": "25/5/2020",
+      "likes": 10,
+      "retweets": 12,
+      "userId": "3",
+      "id": 58
+    },
+    {
+      "comments": {
+        "userId": "2",
+        "tweetId": 59,
+        "content": "first comment",
+        "date": "27/5/2020"
+      },
+      "id": 59
+    },
+    {
+      "comments": {
+        "userId": "2",
+        "tweetId": 60,
+        "content": "",
+        "date": "27/5/2020"
+      },
+      "id": 60
+    },
+    {
+      "comments": {
+        "userId": "2",
+        "tweetId": 61,
+        "content": "one comment",
+        "date": "27/5/2020"
+      },
+      "id": 61
+    },
+    {
+      "content": "new tweet",
+      "date": "27/5/2020",
+      "likes": 2,
+      "retweets": 2,
+      "userId": "2",
+      "comments": [],
+      "id": 62
+    },
+    {
+      "content": "new tweet",
+      "date": "27/5/2020",
+      "likes": 2,
+      "retweets": 2,
+      "userId": "2",
+      "comments": [],
+      "id": 63
+    },
+    {
+      "content": "asd",
+      "date": "28/5/2020",
+      "likes": 0,
+      "retweets": 0,
+      "userId": "1",
+      "comments": [],
+      "id": 64
+    },
+    {
+      "content": "asd",
+      "date": "28/5/2020",
+      "likes": 1,
+      "retweets": 1,
+      "userId": "1",
+      "comments": [],
+      "id": 65
+    },
+    {
+      "content": "LAST TWEET",
+      "date": "29/5/2020",
+      "likes": 2,
+      "retweets": 1,
+      "userId": "1",
+      "comments": [],
+      "id": 66
+    },
+    {
+      "content": "sdadea",
+      "date": "29/5/2020",
+      "likes": 1,
+      "retweets": 0,
+      "userId": "1",
+      "comments": [],
+      "id": 67
+    },
+    {
+      "content": "adasdas",
+      "date": "2/6/2020",
+      "likes": 0,
+      "retweets": 0,
+      "userId": "1",
+      "comments": [],
+      "id": 68
+    },
+    {
+      "content": "wdqwdqw",
+      "date": "2/6/2020",
+      "likes": 0,
+      "retweets": 0,
+      "userId": "2",
+      "comments": [],
+      "id": 69
+    },
+    {
+      "content": "wdqwdqw",
+      "date": "2/6/2020",
+      "likes": 0,
+      "retweets": 0,
+      "userId": "2",
+      "comments": [],
+      "id": 70
+    },
+    {
+      "content": "newest tweet\n",
+      "date": "2/6/2020",
+      "likes": 0,
+      "retweets": 0,
+      "userId": "2",
+      "comments": [],
+      "id": 71
+    },
+    {
+      "content": "newest tweet\n",
+      "date": "2/6/2020",
+      "likes": 0,
+      "retweets": 0,
+      "userId": "2",
+      "comments": [],
+      "id": 72
+    },
+    {
+      "content": "blq blq",
+      "date": "2/6/2020",
+      "likes": 0,
+      "retweets": 0,
+      "userId": "2",
+      "comments": [],
+      "id": 73
+    },
+    {
+      "content": "blq blq",
+      "date": "2/6/2020",
+      "likes": 0,
+      "retweets": 0,
+      "userId": "2",
+      "comments": [],
+      "id": 74
+    },
+    {
+      "content": "dasdsadsa",
+      "date": "3/6/2020",
+      "likes": 0,
+      "retweets": 0,
+      "userId": "2",
+      "comments": [],
+      "id": 75
+    },
+    {
+      "content": "qwdwqdew",
+      "date": "3/6/2020",
+      "likes": 0,
+      "retweets": 0,
+      "userId": "1",
+      "comments": [],
+      "id": 76
+    },
+    {
+      "content": "qwdwqdew",
+      "date": "3/6/2020",
+      "likes": 0,
+      "retweets": 0,
+      "userId": "1",
+      "comments": [],
+      "id": 77
+    },
+    {
+      "content": "LAAAAAAAAAAA",
+      "date": "3/6/2020",
+      "likes": 0,
+      "retweets": 0,
+      "userId": "1",
+      "comments": [],
+      "id": 78
+    },
+    {
+      "content": "LAAAAAAAAAAA",
+      "date": "3/6/2020",
+      "likes": 0,
+      "retweets": 0,
+      "userId": "1",
+      "comments": [],
+      "id": 79
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "userId": 2,
+      "tweetId": 1,
+      "content": "Shante, Shante, Shante",
+      "date": "30/05/2020"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "tweetId": 2,
+      "content": "We’ve all got both light and dark inside us. What matters is the part we choose to act on. That’s who we really are.",
+      "date": "6/05/2020"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "tweetId": 3,
+      "content": "Je m’appelle Claude",
+      "date": "16/05/2020"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "tweetId": 3,
+      "content": "You sort of start thinking anything’s possible if you’ve got enough nerve.",
+      "date": "22/05/2020"
+    },
+    {
+      "id": 5,
+      "userId": 4,
+      "tweetId": 4,
+      "content": "Shante, Shante, Shante",
+      "date": "14/05/2020"
+    },
+    {
+      "id": 6,
+      "userId": 3,
+      "tweetId": 4,
+      "content": "Wow, Bob, wow.",
+      "date": "7/05/2020"
+    },
+    {
+      "id": 7,
+      "userId": 4,
+      "tweetId": 4,
+      "content": "Raspberries? Good. Ladyfingers? Good. Beef? GOOD!",
+      "date": "9/05/2020"
+    },
+    {
+      "id": 8,
+      "userId": 3,
+      "tweetId": 4,
+      "content": "You can't reboot the driver without connecting the haptic SMTP array!",
+      "date": "20/05/2020"
+    },
+    {
+      "id": 9,
+      "userId": 3,
+      "tweetId": 4,
+      "content": "We need to parse the optical EXE firewall!",
+      "date": "5/05/2020"
+    },
+    {
+      "id": 10,
+      "userId": 5,
+      "tweetId": 5,
+      "content": "When Chuck Norris presses Ctrl+Alt+Delete, worldwide computer restart is initiated.",
+      "date": "16/05/2020"
+    },
+    {
+      "id": 11,
+      "userId": 3,
+      "tweetId": 6,
+      "content": "Chuck Norris' programs occupy 150% of CPU, even when they are not executing.",
+      "date": "19/05/2020"
+    },
+    {
+      "id": 12,
+      "userId": 1,
+      "tweetId": 6,
+      "content": "Use the neural RSS monitor, then you can bypass the open-source bandwidth!",
+      "date": "21/05/2020"
+    },
+    {
+      "id": 13,
+      "userId": 2,
+      "tweetId": 7,
+      "content": "MAY A SMILE BE YOUR UMBRELLA. WE'VE ALL HAD OUR SOCKS TOSSED AROUND.",
+      "date": "23/05/2020"
+    },
+    {
+      "id": 14,
+      "userId": 3,
+      "tweetId": 8,
+      "content": "Do you want to know what the ultimate secret is? Laura did. The secret of knowing who killed you.",
+      "date": "7/05/2020"
+    },
+    {
+      "id": 15,
+      "userId": 2,
+      "tweetId": 8,
+      "content": "We need to compress the mobile EXE application!",
+      "date": "25/05/2020"
+    },
+    {
+      "id": 16,
+      "userId": 5,
+      "tweetId": 8,
+      "content": "Sure I peed on her. And if I had to, I’d pee on any one of you!",
+      "date": "29/05/2020"
+    },
+    {
+      "id": 17,
+      "userId": 3,
+      "tweetId": 8,
+      "content": "Forty-two to twenty-one! Like the turkey, Ross is done!",
+      "date": "12/05/2020"
+    },
+    {
+      "id": 18,
+      "userId": 4,
+      "tweetId": 8,
+      "content": "You're like Hitler, except...Hitler cared about Germany, or something.",
+      "date": "3/05/2020"
+    },
+    {
+      "id": 19,
+      "userId": 2,
+      "tweetId": 9,
+      "content": "Just because you have the emotional range of a teaspoon doesn’t mean we all have.",
+      "date": "21/05/2020"
+    },
+    {
+      "id": 20,
+      "userId": 3,
+      "tweetId": 9,
+      "content": "Chuck Norris can access the DB from the UI.",
+      "date": "5/05/2020"
+    },
+    {
+      "id": 21,
+      "userId": 1,
+      "tweetId": 9,
+      "content": "Je m’appelle Claude",
+      "date": "13/05/2020"
+    },
+    {
+      "id": 22,
+      "userId": 1,
+      "tweetId": 10,
+      "content": "Programming the microchip won't do anything, we need to quantify the mobile AGP feed!",
+      "date": "7/05/2020"
+    },
+    {
+      "id": 23,
+      "userId": 1,
+      "tweetId": 10,
+      "content": "She's dead... Wrapped in plastic.",
+      "date": "26/05/2020"
+    },
+    {
+      "id": 24,
+      "userId": 3,
+      "tweetId": 13,
+      "content": "I don't get it and I don't need to.",
+      "date": "11/05/2020"
+    },
+    {
+      "id": 25,
+      "userId": 1,
+      "tweetId": 13,
+      "content": "If we program the sensor, we can get to the TCP program through the primary AGP application!",
+      "date": "11/05/2020"
+    },
+    {
+      "id": 26,
+      "userId": 1,
+      "tweetId": 13,
+      "content": "If the homo sapiens were, in fact, HOMO sapiens…is that why they’re extinct?",
+      "date": "2/05/2020"
+    },
+    {
+      "id": 27,
+      "userId": 1,
+      "tweetId": 14,
+      "content": "I'll index the primary IB alarm, that should interface the ADP interface!",
+      "date": "15/05/2020"
+    },
+    {
+      "id": 28,
+      "userId": 5,
+      "tweetId": 14,
+      "content": "Sure I peed on her. And if I had to, I’d pee on any one of you!",
+      "date": "9/05/2020"
+    },
+    {
+      "id": 29,
+      "userId": 2,
+      "tweetId": 14,
+      "content": "You're Born Naked, The Rest Is Drag",
+      "date": "2/05/2020"
+    },
+    {
+      "id": 30,
+      "userId": 1,
+      "tweetId": 14,
+      "content": "I don't wanna talk. I wanna shoot.",
+      "date": "8/05/2020"
+    },
+    {
+      "id": 31,
+      "userId": 4,
+      "tweetId": 14,
+      "content": "Chuck Norris doesn't need a java compiler, he goes straight to .war",
+      "date": "7/05/2020"
+    },
+    {
+      "id": 32,
+      "userId": 1,
+      "tweetId": 15,
+      "content": "You sort of start thinking anything’s possible if you’ve got enough nerve.",
+      "date": "30/05/2020"
+    },
+    {
+      "id": 33,
+      "userId": 3,
+      "tweetId": 15,
+      "content": "Shante, You Stay",
+      "date": "11/05/2020"
+    },
+    {
+      "id": 34,
+      "userId": 1,
+      "tweetId": 17,
+      "content": "Truly wonderful, the mind of a child is.",
+      "date": "6/05/2020"
+    },
+    {
+      "id": 35,
+      "userId": 3,
+      "tweetId": 19,
+      "content": "I’m not so good with the advice. Can I interest you in a sarcastic comment?",
+      "date": "24/05/2020"
+    },
+    {
+      "id": 36,
+      "userId": 1,
+      "tweetId": 19,
+      "content": "Use the neural SAS card, then you can reboot the solid state protocol!",
+      "date": "28/05/2020"
+    },
+    {
+      "id": 37,
+      "userId": 4,
+      "tweetId": 20,
+      "content": "Words are in my not-so-humble opinion, the most inexhaustible form of magic we have, capable both of inflicting injury and remedying it.",
+      "date": "13/05/2020"
+    },
+    {
+      "id": 38,
+      "userId": 4,
+      "tweetId": 20,
+      "content": "It takes a great deal of bravery to stand up to our enemies, but just as much to stand up to our friends.",
+      "date": "25/05/2020"
+    },
+    {
+      "id": 39,
+      "userId": 5,
+      "tweetId": 20,
+      "content": "SEVEN! SEVEN! SEVEN!",
+      "date": "29/05/2020"
+    },
+    {
+      "id": 40,
+      "userId": 3,
+      "tweetId": 21,
+      "content": "Damn fine coffee! And hot!",
+      "date": "26/05/2020"
+    },
+    {
+      "id": 41,
+      "userId": 4,
+      "tweetId": 21,
+      "content": "Try to input the SQL bus, maybe it will generate the mobile sensor!",
+      "date": "20/05/2020"
+    },
+    {
+      "id": 42,
+      "userId": 2,
+      "tweetId": 22,
+      "content": "You can't reboot the pixel without calculating the open-source USB monitor!",
+      "date": "2/05/2020"
+    },
+    {
+      "id": 43,
+      "userId": 2,
+      "tweetId": 22,
+      "content": "Aw, c'mon Rick. That doesn't seem so bad.",
+      "date": "27/05/2020"
+    },
+    {
+      "id": 44,
+      "userId": 2,
+      "tweetId": 22,
+      "content": "I'm Monica. I’m disgusting. I stalk guys and keep their underpants.",
+      "date": "27/05/2020"
+    },
+    {
+      "id": 45,
+      "userId": 5,
+      "tweetId": 22,
+      "content": "Just because you have the emotional range of a teaspoon doesn’t mean we all have.",
+      "date": "5/05/2020"
+    },
+    {
+      "id": 46,
+      "userId": 1,
+      "tweetId": 22,
+      "content": "We could all have been killed - or worse, expelled.",
+      "date": "6/05/2020"
+    },
+    {
+      "id": 47,
+      "userId": 1,
+      "tweetId": 23,
+      "content": "Sissy That Walk",
+      "date": "19/05/2020"
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "fff",
+      "date": "27/5/2020",
+      "id": 48
+    },
+    {
+      "userId": "3",
+      "tweetId": "56",
+      "content": "fff",
+      "date": "27/5/2020",
+      "id": 49
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "fff",
+      "date": "27/5/2020",
+      "id": 50
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "g",
+      "date": "27/5/2020",
+      "id": 51
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "g",
+      "date": "27/5/2020",
+      "id": 52
+    },
+    {
+      "userId": "3",
+      "tweetId": "56",
+      "content": "g",
+      "date": "27/5/2020",
+      "id": 53
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "g",
+      "date": "27/5/2020",
+      "id": 54
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "",
+      "date": "27/5/2020",
+      "id": 55
+    },
+    {
+      "userId": "3",
+      "tweetId": "56",
+      "content": "g",
+      "date": "27/5/2020",
+      "id": 56
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "",
+      "date": "27/5/2020",
+      "id": 57
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "",
+      "date": "27/5/2020",
+      "id": 58
+    },
+    {
+      "userId": "3",
+      "tweetId": "56",
+      "content": "g",
+      "date": "27/5/2020",
+      "id": 59
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "f",
+      "date": "27/5/2020",
+      "id": 60
+    },
+    {
+      "userId": "3",
+      "tweetId": "56",
+      "content": "f",
+      "date": "27/5/2020",
+      "id": 61
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "f",
+      "date": "27/5/2020",
+      "id": 62
+    },
+    {
+      "userId": "2",
+      "tweetId": "63",
+      "content": "hello I am a comment\n",
+      "date": "27/5/2020",
+      "id": 63
+    },
+    {
+      "userId": "2",
+      "tweetId": "63",
+      "content": "hello I am a comment\n",
+      "date": "27/5/2020",
+      "id": 64
+    },
+    {
+      "userId": "3",
+      "tweetId": "58",
+      "content": "hello I am a comment\n",
+      "date": "27/5/2020",
+      "id": 65
+    },
+    {
+      "userId": "2",
+      "tweetId": "63",
+      "content": "",
+      "date": "27/5/2020",
+      "id": 66
+    },
+    {
+      "userId": "2",
+      "tweetId": "63",
+      "content": "",
+      "date": "27/5/2020",
+      "id": 67
+    },
+    {
+      "userId": "3",
+      "tweetId": "58",
+      "content": "",
+      "date": "27/5/2020",
+      "id": 68
+    },
+    {
+      "userId": "2",
+      "tweetId": "63",
+      "content": "",
+      "date": "27/5/2020",
+      "id": 69
+    },
+    {
+      "userId": "3",
+      "tweetId": "58",
+      "content": "",
+      "date": "27/5/2020",
+      "id": 70
+    },
+    {
+      "userId": "2",
+      "tweetId": "63",
+      "content": "",
+      "date": "27/5/2020",
+      "id": 71
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "",
+      "date": "27/5/2020",
+      "id": 72
+    },
+    {
+      "userId": "3",
+      "tweetId": "56",
+      "content": "",
+      "date": "27/5/2020",
+      "id": 73
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "",
+      "date": "27/5/2020",
+      "id": 74
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "sfsdffds",
+      "date": "27/5/2020",
+      "id": 75
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "sfsdffds",
+      "date": "27/5/2020",
+      "id": 76
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "sfsdffds",
+      "date": "27/5/2020",
+      "id": 77
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "sfsdffds",
+      "date": "27/5/2020",
+      "id": 78
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "sfsdffds",
+      "date": "27/5/2020",
+      "id": 79
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "sfsdffds",
+      "date": "27/5/2020",
+      "id": 80
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "sfsdffds",
+      "date": "27/5/2020",
+      "id": 81
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "sfsdffds",
+      "date": "27/5/2020",
+      "id": 82
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "sfsdffds",
+      "date": "27/5/2020",
+      "id": 83
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "sfsdffds",
+      "date": "27/5/2020",
+      "id": 84
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "sfsdffds",
+      "date": "27/5/2020",
+      "id": 85
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "sfsdffds",
+      "date": "27/5/2020",
+      "id": 86
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "sfsdffds",
+      "date": "27/5/2020",
+      "id": 87
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "sfsdffds",
+      "date": "27/5/2020",
+      "id": 88
+    },
+    {
+      "userId": "3",
+      "tweetId": "56",
+      "content": "sfsdffds",
+      "date": "27/5/2020",
+      "id": 89
+    },
+    {
+      "userId": "3",
+      "tweetId": "56",
+      "content": "sfsdffds",
+      "date": "27/5/2020",
+      "id": 90
+    },
+    {
+      "userId": "3",
+      "tweetId": "56",
+      "content": "sfsdffds",
+      "date": "27/5/2020",
+      "id": 91
+    },
+    {
+      "userId": "3",
+      "tweetId": "56",
+      "content": "sfsdffds",
+      "date": "27/5/2020",
+      "id": 92
+    },
+    {
+      "userId": "3",
+      "tweetId": "56",
+      "content": "sfsdffds",
+      "date": "27/5/2020",
+      "id": 93
+    },
+    {
+      "userId": "3",
+      "tweetId": "56",
+      "content": "sfsdffds",
+      "date": "27/5/2020",
+      "id": 94
+    },
+    {
+      "userId": "3",
+      "tweetId": "56",
+      "content": "sfsdffds",
+      "date": "27/5/2020",
+      "id": 95
+    },
+    {
+      "userId": "3",
+      "tweetId": "56",
+      "content": "sfsdffds",
+      "date": "27/5/2020",
+      "id": 96
+    },
+    {
+      "userId": "3",
+      "tweetId": "56",
+      "content": "sfsdffds",
+      "date": "27/5/2020",
+      "id": 97
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "sdfsdx",
+      "date": "27/5/2020",
+      "id": 98
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "sdfsdx",
+      "date": "27/5/2020",
+      "id": 99
+    },
+    {
+      "userId": "3",
+      "tweetId": "56",
+      "content": "sdfsdx",
+      "date": "27/5/2020",
+      "id": 100
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "fdsdvx",
+      "date": "27/5/2020",
+      "id": 101
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "fdsdvx",
+      "date": "27/5/2020",
+      "id": 102
+    },
+    {
+      "userId": "3",
+      "tweetId": "56",
+      "content": "fdsdvx",
+      "date": "27/5/2020",
+      "id": 103
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "fdgdf",
+      "date": "27/5/2020",
+      "id": 104
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "fdgdf",
+      "date": "27/5/2020",
+      "id": 105
+    },
+    {
+      "userId": "3",
+      "tweetId": "56",
+      "content": "fdgdf",
+      "date": "27/5/2020",
+      "id": 106
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "dfers",
+      "date": "27/5/2020",
+      "id": 107
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "dfers",
+      "date": "27/5/2020",
+      "id": 108
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "dfers",
+      "date": "27/5/2020",
+      "id": 109
+    },
+    {
+      "userId": "3",
+      "tweetId": "56",
+      "content": "dfers",
+      "date": "27/5/2020",
+      "id": 110
+    },
+    {
+      "userId": "3",
+      "tweetId": "56",
+      "content": "dfers",
+      "date": "27/5/2020",
+      "id": 111
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "fsdfas",
+      "date": "27/5/2020",
+      "id": 112
+    },
+    {
+      "userId": "3",
+      "tweetId": "56",
+      "content": "fsdfas",
+      "date": "27/5/2020",
+      "id": 113
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "fsdfas",
+      "date": "27/5/2020",
+      "id": 114
+    },
+    {
+      "userId": "1",
+      "tweetId": "1",
+      "content": "sxs`xa",
+      "date": "28/5/2020",
+      "id": 115
+    },
+    {
+      "userId": "1",
+      "tweetId": "1",
+      "content": "sxs`xa",
+      "date": "28/5/2020",
+      "id": 116
+    },
+    {
+      "userId": "3",
+      "tweetId": "56",
+      "content": "sxs`xa",
+      "date": "28/5/2020",
+      "id": 117
+    },
+    {
+      "userId": "1",
+      "tweetId": "1",
+      "content": "sdfsdfds",
+      "date": "28/5/2020",
+      "id": 118
+    },
+    {
+      "userId": "1",
+      "tweetId": "1",
+      "content": "sdfsdfds",
+      "date": "28/5/2020",
+      "id": 119
+    },
+    {
+      "userId": "3",
+      "tweetId": "56",
+      "content": "sdfsdfds",
+      "date": "28/5/2020",
+      "id": 120
+    },
+    {
+      "userId": "1",
+      "tweetId": "1",
+      "content": "11111111111",
+      "date": "28/5/2020",
+      "id": 121
+    },
+    {
+      "userId": "1",
+      "tweetId": "1",
+      "content": "11111111111",
+      "date": "28/5/2020",
+      "id": 122
+    },
+    {
+      "userId": "3",
+      "tweetId": "56",
+      "content": "11111111111",
+      "date": "28/5/2020",
+      "id": 123
+    },
+    {
+      "userId": "2",
+      "tweetId": "63",
+      "content": "222222",
+      "date": "28/5/2020",
+      "id": 124
+    },
+    {
+      "userId": "3",
+      "tweetId": "58",
+      "content": "222222",
+      "date": "28/5/2020",
+      "id": 125
+    },
+    {
+      "userId": "2",
+      "tweetId": "64",
+      "content": "222222",
+      "date": "28/5/2020",
+      "id": 126
+    },
+    {
+      "userId": "2",
+      "tweetId": "62",
+      "content": "dddwedqe",
+      "date": "29/5/2020",
+      "id": 127
+    },
+    {
+      "userId": "3",
+      "tweetId": "58",
+      "content": "dddwedqe",
+      "date": "29/5/2020",
+      "id": 128
+    },
+    {
+      "userId": "1",
+      "tweetId": "2",
+      "content": "csdcescwdcdwsc",
+      "date": "29/5/2020",
+      "id": 129
+    },
+    {
+      "userId": "3",
+      "tweetId": "58",
+      "content": "csdcescwdcdwsc",
+      "date": "29/5/2020",
+      "id": 130
+    },
+    {
+      "userId": "2",
+      "tweetId": 62,
+      "content": "",
+      "date": "2/6/2020",
+      "id": 131
+    },
+    {
+      "userId": "2",
+      "tweetId": 62,
+      "content": "",
+      "date": "2/6/2020",
+      "id": 132
+    },
+    {
+      "userId": "2",
+      "tweetId": 62,
+      "content": "",
+      "date": "2/6/2020",
+      "id": 133
+    },
+    {
+      "userId": "2",
+      "tweetId": 62,
+      "content": "",
+      "date": "2/6/2020",
+      "id": 134
+    },
+    {
+      "userId": "2",
+      "tweetId": 69,
+      "content": "",
+      "date": "2/6/2020",
+      "id": 135
+    },
+    {
+      "userId": "2",
+      "tweetId": 69,
+      "content": "",
+      "date": "2/6/2020",
+      "id": 136
+    },
+    {
+      "userId": "2",
+      "tweetId": 73,
+      "content": "",
+      "date": "2/6/2020",
+      "id": 137
+    },
+    {
+      "userId": "2",
+      "tweetId": 72,
+      "content": "",
+      "date": "2/6/2020",
+      "id": 138
+    },
+    {
+      "userId": "2",
+      "tweetId": 73,
+      "content": "",
+      "date": "2/6/2020",
+      "id": 139
+    },
+    {
+      "userId": "2",
+      "tweetId": 73,
+      "content": "",
+      "date": "2/6/2020",
+      "id": 140
+    },
+    {
+      "userId": "2",
+      "tweetId": 73,
+      "content": "",
+      "date": "2/6/2020",
+      "id": 141
+    },
+    {
+      "userId": "2",
+      "tweetId": 69,
+      "content": "",
+      "date": "2/6/2020",
+      "id": 142
+    },
+    {
+      "userId": "2",
+      "tweetId": 70,
+      "content": "",
+      "date": "2/6/2020",
+      "id": 143
+    },
+    {
+      "userId": "2",
+      "tweetId": 69,
+      "content": "",
+      "date": "2/6/2020",
+      "id": 144
+    },
+    {
+      "userId": "2",
+      "tweetId": 69,
+      "content": "",
+      "date": "2/6/2020",
+      "id": 145
+    },
+    {
+      "userId": "2",
+      "tweetId": 69,
+      "content": "",
+      "date": "2/6/2020",
+      "id": 146
+    },
+    {
+      "userId": "2",
+      "tweetId": 70,
+      "content": "",
+      "date": "2/6/2020",
+      "id": 147
+    },
+    {
+      "userId": "2",
+      "tweetId": 70,
+      "content": "",
+      "date": "2/6/2020",
+      "id": 148
+    },
+    {
+      "userId": "2",
+      "tweetId": 70,
+      "content": "",
+      "date": "2/6/2020",
+      "id": 149
+    },
+    {
+      "userId": "2",
+      "tweetId": 72,
+      "content": "new comment\n",
+      "date": "2/6/2020",
+      "id": 150
+    },
+    {
+      "userId": "2",
+      "tweetId": 74,
+      "content": "new comment\n",
+      "date": "2/6/2020",
+      "id": 151
+    },
+    {
+      "userId": "2",
+      "tweetId": 63,
+      "content": "dsadas",
+      "date": "3/6/2020",
+      "id": 152
+    },
+    {
+      "userId": "2",
+      "tweetId": {
+        "content": "new tweet",
+        "date": "27/5/2020",
+        "likes": 1,
+        "retweets": 1,
+        "userId": "2",
+        "comments": [
+          {
+            "userId": "2",
+            "tweetId": 62,
+            "content": "",
+            "date": "2/6/2020",
+            "id": 131
+          },
+          {
+            "userId": "2",
+            "tweetId": 62,
+            "content": "",
+            "date": "2/6/2020",
+            "id": 132
+          },
+          {
+            "userId": "2",
+            "tweetId": 62,
+            "content": "",
+            "date": "2/6/2020",
+            "id": 133
+          },
+          {
+            "userId": "2",
+            "tweetId": 62,
+            "content": "",
+            "date": "2/6/2020",
+            "id": 134
+          }
+        ],
+        "id": 62
+      },
+      "content": "111111",
+      "date": "3/6/2020",
+      "id": 153
+    },
+    {
+      "userId": "3",
+      "tweetId": {
+        "content": "csxcs",
+        "date": "25/5/2020",
+        "likes": 10,
+        "retweets": 28,
+        "userId": "3",
+        "id": 56,
+        "comments": []
+      },
+      "content": "2332323232",
+      "date": "3/6/2020",
+      "id": 154
+    },
+    {
+      "userId": "3",
+      "tweetId": {
+        "content": "csxcs",
+        "date": "25/5/2020",
+        "likes": 10,
+        "retweets": 28,
+        "userId": "3",
+        "id": 56,
+        "comments": []
+      },
+      "content": "2332323232",
+      "date": "3/6/2020",
+      "id": 155
+    },
+    {
+      "userId": "2",
+      "tweetId": {
+        "content": "blq blq",
+        "date": "2/6/2020",
+        "likes": 0,
+        "retweets": 0,
+        "userId": "2",
+        "comments": [
+          {
+            "userId": "2",
+            "tweetId": 74,
+            "content": "new comment\n",
+            "date": "2/6/2020",
+            "id": 151
+          }
+        ],
+        "id": 74
+      },
+      "content": "ewrwerwqe",
+      "date": "3/6/2020",
+      "id": 156
+    },
+    {
+      "userId": "2",
+      "tweetId": 71,
+      "content": "qqqq",
+      "date": "3/6/2020",
+      "id": 157
+    },
+    {
+      "userId": "2",
+      "tweetId": 70,
+      "content": "qqqq",
+      "date": "3/6/2020",
+      "id": 158
+    },
+    {
+      "userId": "2",
+      "tweetId": {
+        "content": "newest tweet\n",
+        "date": "2/6/2020",
+        "likes": 0,
+        "retweets": 0,
+        "userId": "2",
+        "comments": [
+          {
+            "userId": "2",
+            "tweetId": 71,
+            "content": "qqqq",
+            "date": "3/6/2020",
+            "id": 157
+          }
+        ],
+        "id": 71
+      },
+      "content": "eeee",
+      "date": "3/6/2020",
+      "id": 159
+    },
+    {
+      "userId": "2",
+      "tweetId": {
+        "content": "wdqwdqw",
+        "date": "2/6/2020",
+        "likes": 0,
+        "retweets": 0,
+        "userId": "2",
+        "comments": [
+          {
+            "userId": "2",
+            "tweetId": 70,
+            "content": "",
+            "date": "2/6/2020",
+            "id": 143
+          },
+          {
+            "userId": "2",
+            "tweetId": 70,
+            "content": "",
+            "date": "2/6/2020",
+            "id": 147
+          },
+          {
+            "userId": "2",
+            "tweetId": 70,
+            "content": "",
+            "date": "2/6/2020",
+            "id": 148
+          },
+          {
+            "userId": "2",
+            "tweetId": 70,
+            "content": "",
+            "date": "2/6/2020",
+            "id": 149
+          },
+          {
+            "userId": "2",
+            "tweetId": 70,
+            "content": "qqqq",
+            "date": "3/6/2020",
+            "id": 158
+          }
+        ],
+        "id": 70
+      },
+      "content": "eeee",
+      "date": "3/6/2020",
+      "id": 160
+    },
+    {
+      "userId": "2",
+      "tweetId": {
+        "content": "wdqwdqw",
+        "date": "2/6/2020",
+        "likes": 0,
+        "retweets": 0,
+        "userId": "2",
+        "comments": [
+          {
+            "userId": "2",
+            "tweetId": 70,
+            "content": "",
+            "date": "2/6/2020",
+            "id": 143
+          },
+          {
+            "userId": "2",
+            "tweetId": 70,
+            "content": "",
+            "date": "2/6/2020",
+            "id": 147
+          },
+          {
+            "userId": "2",
+            "tweetId": 70,
+            "content": "",
+            "date": "2/6/2020",
+            "id": 148
+          },
+          {
+            "userId": "2",
+            "tweetId": 70,
+            "content": "",
+            "date": "2/6/2020",
+            "id": 149
+          },
+          {
+            "userId": "2",
+            "tweetId": 70,
+            "content": "qqqq",
+            "date": "3/6/2020",
+            "id": 158
+          }
+        ],
+        "id": 70
+      },
+      "content": "ddd",
+      "date": "3/6/2020",
+      "id": 161
+    },
+    {
+      "userId": "2",
+      "tweetId": {
+        "content": "wdqwdqw",
+        "date": "2/6/2020",
+        "likes": 0,
+        "retweets": 0,
+        "userId": "2",
+        "comments": [
+          {
+            "userId": "2",
+            "tweetId": 70,
+            "content": "",
+            "date": "2/6/2020",
+            "id": 143
+          },
+          {
+            "userId": "2",
+            "tweetId": 70,
+            "content": "",
+            "date": "2/6/2020",
+            "id": 147
+          },
+          {
+            "userId": "2",
+            "tweetId": 70,
+            "content": "",
+            "date": "2/6/2020",
+            "id": 148
+          },
+          {
+            "userId": "2",
+            "tweetId": 70,
+            "content": "",
+            "date": "2/6/2020",
+            "id": 149
+          },
+          {
+            "userId": "2",
+            "tweetId": 70,
+            "content": "qqqq",
+            "date": "3/6/2020",
+            "id": 158
+          }
+        ],
+        "id": 70
+      },
+      "content": "ddd",
+      "date": "3/6/2020",
+      "id": 162
+    },
+    {
+      "userId": "3",
+      "tweetId": 56,
+      "content": "234",
+      "date": "3/6/2020",
+      "id": 163
+    },
+    {
+      "userId": "1",
+      "tweetId": {
         "id": 1,
         "userId": 1,
         "content": "Lip-Sync for Your Life",
-        "likes": 94,
-        "retweets": 39,
-        "date": "26/05/2020"
-      },
-      {
-        "id": 2,
-        "userId": 1,
-        "content": "Chuck Norris doesn't delete files, he blows them away.",
-        "likes": 137,
-        "retweets": 47,
-        "date": "26/05/2020"
-      },
-      {
-        "id": 3,
-        "userId": 1,
-        "content": "I'll index the 1080p PNG port, that should bandwidth the SAS array!",
-        "likes": 197,
-        "retweets": 32,
-        "date": "1/05/2020"
-      },
-      {
-        "id": 4,
-        "userId": 1,
-        "content": "Anonymous methods and anonymous types are really all called Chuck Norris. They just don't like to boast.",
-        "likes": 62,
-        "retweets": 42,
-        "date": "13/05/2020"
-      },
-      {
-        "id": 5,
-        "userId": 1,
-        "content": "Let the music play",
-        "likes": 75,
-        "retweets": 50,
-        "date": "18/05/2020"
-      },
-      {
-        "id": 6,
-        "userId": 1,
-        "content": "The programs that Chuck Norris writes don't have version numbers because he only writes them once. If a user reports a bug or has a feature request they don't live to see the sun set.",
-        "likes": 127,
-        "retweets": 50,
-        "date": "12/05/2020"
-      },
-      {
-        "id": 7,
-        "userId": 1,
-        "content": "Harry, is that bag smiling?",
-        "likes": 77,
-        "retweets": 38,
-        "date": "30/05/2020"
-      },
-      {
-        "id": 8,
-        "userId": 1,
-        "content": "Go home and drink, grandpa.",
-        "likes": 53,
-        "retweets": 48,
-        "date": "24/05/2020"
-      },
-      {
-        "id": 9,
-        "userId": 1,
-        "content": "When Chuck Norris points to null, null quakes in fear.",
-        "likes": 4,
-        "retweets": 21,
-        "date": "16/05/2020"
-      },
-      {
-        "id": 10,
-        "userId": 1,
-        "content": "It's fine, everything is fine. Theres an infinite number of realities Morty and in a few dozen of those I got lucky and turned everything back to normal.",
-        "likes": 136,
-        "retweets": 3,
-        "date": "16/05/2020"
-      },
-      {
-        "id": 11,
-        "userId": 2,
-        "content": "A Jedi uses the Force for knowledge and defense, never for attack.",
-        "likes": 57,
-        "retweets": 46,
-        "date": "21/05/2020"
-      },
-      {
-        "id": 12,
-        "userId": 2,
-        "content": "Don't F*ck It Up",
-        "likes": 4,
-        "retweets": 10,
-        "date": "17/05/2020"
-      },
-      {
-        "id": 13,
-        "userId": 3,
-        "content": "Who's the more foolish; the fool, or the fool who follows him?",
-        "likes": 200,
-        "retweets": 11,
-        "date": "10/05/2020"
-      },
-      {
-        "id": 14,
-        "userId": 3,
-        "content": "Never trust anything that can think for itself if you can't see where it keeps its brain.",
-        "likes": 21,
-        "retweets": 40,
-        "date": "30/05/2020"
-      },
-      {
-        "id": 15,
-        "userId": 4,
-        "content": "If we reboot the circuit, we can get to the GB protocol through the solid state USB card!",
-        "likes": 42,
-        "retweets": 16,
-        "date": "26/05/2020"
-      },
-      {
-        "id": 16,
-        "userId": 4,
-        "content": "Sissy That Walk",
-        "likes": 63,
-        "retweets": 42,
-        "date": "26/05/2020"
-      },
-      {
-        "id": 17,
-        "userId": 4,
-        "content": "That gum you like is going to come back in style.",
-        "likes": 107,
-        "retweets": 28,
-        "date": "26/05/2020"
-      },
-      {
-        "id": 18,
-        "userId": 5,
-        "content": "Chuck Norris' programs occupy 150% of CPU, even when they are not executing.",
-        "likes": 92,
-        "retweets": 17,
-        "date": "17/05/2020"
-      },
-      {
-        "id": 19,
-        "userId": 5,
-        "content": "Forty-two to twenty-one! Like the turkey, Ross is done!",
-        "likes": 115,
-        "retweets": 5,
-        "date": "24/05/2020"
-      },
-      {
-        "id": 20,
-        "userId": 5,
-        "content": "You know, this is — excuse me — a damn fine cup of coffee!",
-        "likes": 194,
-        "retweets": 22,
-        "date": "11/05/2020"
-      },
-      {
-        "id": 21,
-        "userId": 5,
-        "content": "COOPER, YOU REMIND ME TODAY OF A SMALL MEXICAN CHIHUAHUA.",
-        "likes": 157,
-        "retweets": 21,
-        "date": "16/05/2020"
-      },
-      {
-        "id": 22,
-        "userId": 5,
-        "content": "If you want to know what a man’s like, take a good look at how he treats his inferiors, not his equals.",
-        "likes": 75,
-        "retweets": 48,
-        "date": "1/05/2020"
-      },
-      {
-        "id": 23,
-        "userId": 5,
-        "content": "Chuck Norris doesn't have performance bottlenecks. He just makes the universe wait its turn.",
-        "likes": 62,
-        "retweets": 36,
-        "date": "6/05/2020"
-      },
-      {
-        "id": 24,
-        "userId": 5,
-        "content": "Through the darkness of future's past, the magician longs to see. One chants out between two worlds... \"Fire... walk with me.\"",
-        "likes": 2,
-        "retweets": 20,
-        "date": "14/05/2020"
-      }
-    ],
-    "comments": [
-      {
-        "id": 1,
-        "userId": 2,
-        "tweetId": 1,
-        "content": "Shante, Shante, Shante",
-        "date": "30/05/2020"
-      },
-      {
-        "id": 2,
-        "userId": 1,
-        "tweetId": 2,
-        "content": "We’ve all got both light and dark inside us. What matters is the part we choose to act on. That’s who we really are.",
-        "date": "6/05/2020"
-      },
-      {
-        "id": 3,
-        "userId": 1,
-        "tweetId": 3,
-        "content": "Je m’appelle Claude",
-        "date": "16/05/2020"
-      },
-      {
-        "id": 4,
-        "userId": 4,
-        "tweetId": 3,
-        "content": "You sort of start thinking anything’s possible if you’ve got enough nerve.",
-        "date": "22/05/2020"
-      },
-      {
-        "id": 5,
-        "userId": 4,
-        "tweetId": 4,
-        "content": "Shante, Shante, Shante",
-        "date": "14/05/2020"
-      },
-      {
-        "id": 6,
-        "userId": 3,
-        "tweetId": 4,
-        "content": "Wow, Bob, wow.",
-        "date": "7/05/2020"
-      },
-      {
-        "id": 7,
-        "userId": 4,
-        "tweetId": 4,
-        "content": "Raspberries? Good. Ladyfingers? Good. Beef? GOOD!",
-        "date": "9/05/2020"
-      },
-      {
-        "id": 8,
-        "userId": 3,
-        "tweetId": 4,
-        "content": "You can't reboot the driver without connecting the haptic SMTP array!",
-        "date": "20/05/2020"
-      },
-      {
-        "id": 9,
-        "userId": 3,
-        "tweetId": 4,
-        "content": "We need to parse the optical EXE firewall!",
-        "date": "5/05/2020"
-      },
-      {
-        "id": 10,
-        "userId": 5,
-        "tweetId": 5,
-        "content": "When Chuck Norris presses Ctrl+Alt+Delete, worldwide computer restart is initiated.",
-        "date": "16/05/2020"
-      },
-      {
-        "id": 11,
-        "userId": 3,
-        "tweetId": 6,
-        "content": "Chuck Norris' programs occupy 150% of CPU, even when they are not executing.",
-        "date": "19/05/2020"
-      },
-      {
-        "id": 12,
-        "userId": 1,
-        "tweetId": 6,
-        "content": "Use the neural RSS monitor, then you can bypass the open-source bandwidth!",
-        "date": "21/05/2020"
-      },
-      {
-        "id": 13,
-        "userId": 2,
-        "tweetId": 7,
-        "content": "MAY A SMILE BE YOUR UMBRELLA. WE'VE ALL HAD OUR SOCKS TOSSED AROUND.",
-        "date": "23/05/2020"
-      },
-      {
-        "id": 14,
-        "userId": 3,
-        "tweetId": 8,
-        "content": "Do you want to know what the ultimate secret is? Laura did. The secret of knowing who killed you.",
-        "date": "7/05/2020"
-      },
-      {
-        "id": 15,
-        "userId": 2,
-        "tweetId": 8,
-        "content": "We need to compress the mobile EXE application!",
-        "date": "25/05/2020"
-      },
-      {
-        "id": 16,
-        "userId": 5,
-        "tweetId": 8,
-        "content": "Sure I peed on her. And if I had to, I’d pee on any one of you!",
-        "date": "29/05/2020"
-      },
-      {
-        "id": 17,
-        "userId": 3,
-        "tweetId": 8,
-        "content": "Forty-two to twenty-one! Like the turkey, Ross is done!",
-        "date": "12/05/2020"
-      },
-      {
-        "id": 18,
-        "userId": 4,
-        "tweetId": 8,
-        "content": "You're like Hitler, except...Hitler cared about Germany, or something.",
-        "date": "3/05/2020"
-      },
-      {
-        "id": 19,
-        "userId": 2,
-        "tweetId": 9,
-        "content": "Just because you have the emotional range of a teaspoon doesn’t mean we all have.",
-        "date": "21/05/2020"
-      },
-      {
-        "id": 20,
-        "userId": 3,
-        "tweetId": 9,
-        "content": "Chuck Norris can access the DB from the UI.",
-        "date": "5/05/2020"
-      },
-      {
-        "id": 21,
-        "userId": 1,
-        "tweetId": 9,
-        "content": "Je m’appelle Claude",
-        "date": "13/05/2020"
-      },
-      {
-        "id": 22,
-        "userId": 1,
-        "tweetId": 10,
-        "content": "Programming the microchip won't do anything, we need to quantify the mobile AGP feed!",
-        "date": "7/05/2020"
-      },
-      {
-        "id": 23,
-        "userId": 1,
-        "tweetId": 10,
-        "content": "She's dead... Wrapped in plastic.",
-        "date": "26/05/2020"
-      },
-      {
-        "id": 24,
-        "userId": 3,
-        "tweetId": 13,
-        "content": "I don't get it and I don't need to.",
-        "date": "11/05/2020"
-      },
-      {
-        "id": 25,
-        "userId": 1,
-        "tweetId": 13,
-        "content": "If we program the sensor, we can get to the TCP program through the primary AGP application!",
-        "date": "11/05/2020"
-      },
-      {
-        "id": 26,
-        "userId": 1,
-        "tweetId": 13,
-        "content": "If the homo sapiens were, in fact, HOMO sapiens…is that why they’re extinct?",
-        "date": "2/05/2020"
-      },
-      {
-        "id": 27,
-        "userId": 1,
-        "tweetId": 14,
-        "content": "I'll index the primary IB alarm, that should interface the ADP interface!",
-        "date": "15/05/2020"
-      },
-      {
-        "id": 28,
-        "userId": 5,
-        "tweetId": 14,
-        "content": "Sure I peed on her. And if I had to, I’d pee on any one of you!",
-        "date": "9/05/2020"
-      },
-      {
-        "id": 29,
-        "userId": 2,
-        "tweetId": 14,
-        "content": "You're Born Naked, The Rest Is Drag",
-        "date": "2/05/2020"
-      },
-      {
-        "id": 30,
-        "userId": 1,
-        "tweetId": 14,
-        "content": "I don't wanna talk. I wanna shoot.",
-        "date": "8/05/2020"
-      },
-      {
-        "id": 31,
-        "userId": 4,
-        "tweetId": 14,
-        "content": "Chuck Norris doesn't need a java compiler, he goes straight to .war",
-        "date": "7/05/2020"
-      },
-      {
-        "id": 32,
-        "userId": 1,
-        "tweetId": 15,
-        "content": "You sort of start thinking anything’s possible if you’ve got enough nerve.",
-        "date": "30/05/2020"
-      },
-      {
-        "id": 33,
-        "userId": 3,
-        "tweetId": 15,
-        "content": "Shante, You Stay",
-        "date": "11/05/2020"
-      },
-      {
-        "id": 34,
-        "userId": 1,
-        "tweetId": 17,
-        "content": "Truly wonderful, the mind of a child is.",
-        "date": "6/05/2020"
-      },
-      {
-        "id": 35,
-        "userId": 3,
-        "tweetId": 19,
-        "content": "I’m not so good with the advice. Can I interest you in a sarcastic comment?",
-        "date": "24/05/2020"
-      },
-      {
-        "id": 36,
-        "userId": 1,
-        "tweetId": 19,
-        "content": "Use the neural SAS card, then you can reboot the solid state protocol!",
-        "date": "28/05/2020"
-      },
-      {
-        "id": 37,
-        "userId": 4,
-        "tweetId": 20,
-        "content": "Words are in my not-so-humble opinion, the most inexhaustible form of magic we have, capable both of inflicting injury and remedying it.",
-        "date": "13/05/2020"
-      },
-      {
-        "id": 38,
-        "userId": 4,
-        "tweetId": 20,
-        "content": "It takes a great deal of bravery to stand up to our enemies, but just as much to stand up to our friends.",
-        "date": "25/05/2020"
-      },
-      {
-        "id": 39,
-        "userId": 5,
-        "tweetId": 20,
-        "content": "SEVEN! SEVEN! SEVEN!",
-        "date": "29/05/2020"
-      },
-      {
-        "id": 40,
-        "userId": 3,
-        "tweetId": 21,
-        "content": "Damn fine coffee! And hot!",
-        "date": "26/05/2020"
-      },
-      {
-        "id": 41,
-        "userId": 4,
-        "tweetId": 21,
-        "content": "Try to input the SQL bus, maybe it will generate the mobile sensor!",
-        "date": "20/05/2020"
-      },
-      {
-        "id": 42,
-        "userId": 2,
-        "tweetId": 22,
-        "content": "You can't reboot the pixel without calculating the open-source USB monitor!",
-        "date": "2/05/2020"
-      },
-      {
-        "id": 43,
-        "userId": 2,
-        "tweetId": 22,
-        "content": "Aw, c'mon Rick. That doesn't seem so bad.",
-        "date": "27/05/2020"
-      },
-      {
-        "id": 44,
-        "userId": 2,
-        "tweetId": 22,
-        "content": "I'm Monica. I’m disgusting. I stalk guys and keep their underpants.",
-        "date": "27/05/2020"
-      },
-      {
-        "id": 45,
-        "userId": 5,
-        "tweetId": 22,
-        "content": "Just because you have the emotional range of a teaspoon doesn’t mean we all have.",
-        "date": "5/05/2020"
-      },
-      {
-        "id": 46,
-        "userId": 1,
-        "tweetId": 22,
-        "content": "We could all have been killed - or worse, expelled.",
-        "date": "6/05/2020"
-      },
-      {
-        "id": 47,
-        "userId": 1,
-        "tweetId": 23,
-        "content": "Sissy That Walk",
-        "date": "19/05/2020"
-      }
-    ]
-  }
-  
+        "likes": 121,
+        "retweets": 45,
+        "date": "26/05/2020",
+        "comments": [
+          {
+            "id": 1,
+            "userId": 2,
+            "tweetId": 1,
+            "content": "Shante, Shante, Shante",
+            "date": "30/05/2020"
+          }
+        ]
+      },
+      "content": "efwefew",
+      "date": "3/6/2020",
+      "id": 164
+    },
+    {
+      "userId": "1",
+      "tweetId": 1,
+      "content": "sdecwec",
+      "date": "3/6/2020",
+      "id": 165
+    },
+    {
+      "userId": "1",
+      "tweetId": 1,
+      "content": "LAST COMMENTS",
+      "date": "3/6/2020",
+      "id": 166
+    },
+    {
+      "userId": "1",
+      "tweetId": 79,
+      "content": "one comment",
+      "date": "3/6/2020",
+      "id": 167
+    },
+    {
+      "userId": "1",
+      "tweetId": 67,
+      "content": "one comment",
+      "date": "3/6/2020",
+      "id": 168
+    }
+  ]
+}

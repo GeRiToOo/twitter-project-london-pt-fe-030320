@@ -1,0 +1,190 @@
+#body_wrapper_tweet {
+  font-family: Roboto Thin;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  min-height: 800px;
+  background-color: white;
+  margin: 0 auto;
+  overflow: hidden;
+
+  .wave {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 300px;
+
+    img {
+      width: 100;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .tweet_wrapper_comment {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .top {
+      position: absolute;
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      top: 0;
+      border-bottom: 1px solid #faff00;
+      padding: 10px 20px;
+      align-items: center;
+
+      img {
+        width: 20px;
+        height: 10px;
+      }
+
+      button {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        background-color: #faff00;
+        color: black;
+        width: 80px;
+        height: 25px;
+        border-radius: 5px;
+        border: solid 1px#faff00;
+      }
+    }
+
+    .text_comment {
+      position: absolute;
+      top: 70px;
+      left: 20px;
+      width: 90%;
+      margin: 0 auto;
+      background-color: black;
+      border-top: 1px solid #dddddd;
+      border: solid 1px #faff00;
+      border-radius: 4px;
+
+      textarea {
+        font-family: Roboto Thin;
+        font-size: 14px;
+        margin-top: 10px;
+        width: 100%;
+        height: 120px;
+        border-radius: 5px;
+        background: black;
+        border: black solid 1px;
+        color: white;
+        &:focus {
+          color: white;
+          outline: 0;
+        }
+        &:active {
+          color: white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .comment_window_successfully {
+    display: none;
+    font-family: Roboto;
+    position: absolute;
+    width: 250px;
+    height: 15px;
+    top: 0;
+    p {
+      color: green;
+    }
+  }
+
+  .comment_window_unsuccessfully {
+    display: none;
+    font-family: Roboto;
+    position: absolute;
+    width: 250px;
+    height: 15px;
+    top: 0;
+    p {
+      color: red;
+    }
+  }
+
+  .yellow_middle {
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 60px solid #faff00;
+    opacity: 0.8;
+    transform: rotate(50deg);
+  }
+
+  .purple_three {
+    position: absolute;
+    top: 500px;
+    right: -30px;
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 80px solid #dd00f0;
+    opacity: 0.8;
+    transform: rotate(100deg);
+  }
+
+  .purple_four {
+    position: absolute;
+    bottom: 70px;
+    left: -40px;
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 60px solid #dd00f0;
+    opacity: 0.8;
+    transform: rotate(95deg);
+  }
+
+  .img_wrapper_standingOne {
+    position: absolute;
+    width: 100px;
+    height: 180px;
+    bottom: 0px;
+    left: 130px;
+    z-index: 2;
+
+    img {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  }
+
+  .img_wrapper_standingTwo {
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    bottom: 0px;
+    right: 80px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  }
+}
